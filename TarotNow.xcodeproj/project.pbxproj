@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8E9AC5150BF21000F29F0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9AC4150BF21000F29F0C /* UIKit.framework */; };
+		BC8E9AC7150BF21000F29F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9AC6150BF21000F29F0C /* Foundation.framework */; };
+		BC8E9AC9150BF21000F29F0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9AC8150BF21000F29F0C /* CoreGraphics.framework */; };
+		BC8E9ACF150BF21000F29F0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC8E9ACD150BF21000F29F0C /* InfoPlist.strings */; };
+		BC8E9AD1150BF21000F29F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9AD0150BF21000F29F0C /* main.m */; };
+		BC8E9AD5150BF21000F29F0C /* C3WAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9AD4150BF21000F29F0C /* C3WAppDelegate.m */; };
+		BC8E9AD8150BF21000F29F0C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8E9AD6150BF21000F29F0C /* MainStoryboard.storyboard */; };
+		BC8E9ADB150BF21000F29F0C /* C3WViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9ADA150BF21000F29F0C /* C3WViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC8E9AC0150BF21000F29F0C /* TarotNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarotNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8E9AC4150BF21000F29F0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC8E9AC6150BF21000F29F0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC8E9AC8150BF21000F29F0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC8E9ACC150BF21000F29F0C /* TarotNow-Info.plist */ = {isa = PBXFileReference; path = "TarotNow-Info.plist"; sourceTree = "<group>"; };
+		BC8E9ACE150BF21000F29F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC8E9AD0150BF21000F29F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8E9AD2150BF21000F29F0C /* TarotNow-Prefix.pch */ = {isa = PBXFileReference; path = "TarotNow-Prefix.pch"; sourceTree = "<group>"; };
+		BC8E9AD3150BF21000F29F0C /* C3WAppDelegate.h */ = {isa = PBXFileReference; path = C3WAppDelegate.h; sourceTree = "<group>"; };
+		BC8E9AD4150BF21000F29F0C /* C3WAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C3WAppDelegate.m; sourceTree = "<group>"; };
+		BC8E9AD7150BF21000F29F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BC8E9AD9150BF21000F29F0C /* C3WViewController.h */ = {isa = PBXFileReference; path = C3WViewController.h; sourceTree = "<group>"; };
+		BC8E9ADA150BF21000F29F0C /* C3WViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C3WViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8E9ABD150BF21000F29F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8E9AC5150BF21000F29F0C /* UIKit.framework in Frameworks */,
+				BC8E9AC7150BF21000F29F0C /* Foundation.framework in Frameworks */,
+				BC8E9AC9150BF21000F29F0C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8E9AB5150BF21000F29F0C = {
+			isa = PBXGroup;
+			children = (
+				BC8E9ACA150BF21000F29F0C /* TarotNow */,
+				BC8E9AC3150BF21000F29F0C /* Frameworks */,
+				BC8E9AC1150BF21000F29F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8E9AC1150BF21000F29F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E9AC0150BF21000F29F0C /* TarotNow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8E9AC3150BF21000F29F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E9AC4150BF21000F29F0C /* UIKit.framework */,
+				BC8E9AC6150BF21000F29F0C /* Foundation.framework */,
+				BC8E9AC8150BF21000F29F0C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC8E9ACA150BF21000F29F0C /* TarotNow */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E9AD3150BF21000F29F0C /* C3WAppDelegate.h */,
+				BC8E9AD4150BF21000F29F0C /* C3WAppDelegate.m */,
+				BC8E9AD6150BF21000F29F0C /* MainStoryboard.storyboard */,
+				BC8E9AD9150BF21000F29F0C /* C3WViewController.h */,
+				BC8E9ADA150BF21000F29F0C /* C3WViewController.m */,
+				BC8E9ACB150BF21000F29F0C /* Supporting Files */,
+			);
+			path = TarotNow;
+			sourceTree = "<group>";
+		};
+		BC8E9ACB150BF21000F29F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E9ACC150BF21000F29F0C /* TarotNow-Info.plist */,
+				BC8E9ACD150BF21000F29F0C /* InfoPlist.strings */,
+				BC8E9AD0150BF21000F29F0C /* main.m */,
+				BC8E9AD2150BF21000F29F0C /* TarotNow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC8E9ABF150BF21000F29F0C /* TarotNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8E9ADE150BF21000F29F0C /* Build configuration list for PBXNativeTarget "TarotNow" */;
+			buildPhases = (
+				BC8E9ABC150BF21000F29F0C /* Sources */,
+				BC8E9ABD150BF21000F29F0C /* Frameworks */,
+				BC8E9ABE150BF21000F29F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TarotNow;
+			productName = TarotNow;
+			productReference = BC8E9AC0150BF21000F29F0C /* TarotNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8E9AB7150BF21000F29F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C3W;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = 4MMedia;
+			};
+			buildConfigurationList = BC8E9ABA150BF21000F29F0C /* Build configuration list for PBXProject "TarotNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC8E9AB5150BF21000F29F0C;
+			productRefGroup = BC8E9AC1150BF21000F29F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8E9ABF150BF21000F29F0C /* TarotNow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8E9ABE150BF21000F29F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8E9ACF150BF21000F29F0C /* InfoPlist.strings in Resources */,
+				BC8E9AD8150BF21000F29F0C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8E9ABC150BF21000F29F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8E9AD1150BF21000F29F0C /* main.m in Sources */,
+				BC8E9AD5150BF21000F29F0C /* C3WAppDelegate.m in Sources */,
+				BC8E9ADB150BF21000F29F0C /* C3WViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC8E9ACD150BF21000F29F0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8E9ACE150BF21000F29F0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC8E9AD6150BF21000F29F0C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8E9AD7150BF21000F29F0C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8E9ADC150BF21000F29F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC8E9ADD150BF21000F29F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8E9ADF150BF21000F29F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TarotNow/TarotNow-Prefix.pch";
+				INFOPLIST_FILE = "TarotNow/TarotNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC8E9AE0150BF21000F29F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TarotNow/TarotNow-Prefix.pch";
+				INFOPLIST_FILE = "TarotNow/TarotNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8E9ABA150BF21000F29F0C /* Build configuration list for PBXProject "TarotNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8E9ADC150BF21000F29F0C /* Debug */,
+				BC8E9ADD150BF21000F29F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8E9ADE150BF21000F29F0C /* Build configuration list for PBXNativeTarget "TarotNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8E9ADF150BF21000F29F0C /* Debug */,
+				BC8E9AE0150BF21000F29F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8E9AB7150BF21000F29F0C /* Project object */;
+}
