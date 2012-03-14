@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cards</key>
+	<array>
+		<dict>
+			<key>description</key>
+			<string>Ace of Swords</string>
+			<key>meaning</key>
+			<string>Triumph, the excessive degree in everything, conquest, triumph of force.</string>
+			<key>reverse</key>
+			<string>Triumph, the excessive degree in everything, conquest, triumph of force with disasterous results.</string>
+			<key>imageName</key>
+			<string>swords01</string>
+			<key>rank</key>
+			<integer>1</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Two of Swords</string>
+			<key>meaning</key>
+			<string>Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.</string>
+			<key>reverse</key>
+			<string>Imposture, falsehood, duplicity, disloyalty.</string>
+			<key>imageName</key>
+			<string>swords02</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Three of Swords</string>
+			<key>meaning</key>
+			<string>Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.</string>
+			<key>reverse</key>
+			<string>Mental alienation, error, loss, distraction, disorder, confusion.</string>
+			<key>imageName</key>
+			<string>swords03</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Four of Swords</string>
+			<key>meaning</key>
+			<string>Vigilance, retreat, solitude, hermit&apos;s repose, exile, tomb and coffin. It is these last that have suggested the design.</string>
+			<key>reverse</key>
+			<string>Wise administration, circumspection, economy, avarice, precaution, testament.</string>
+			<key>imageName</key>
+			<string>swords04</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Five of Swords</string>
+			<key>meaning</key>
+			<string>Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.</string>
+			<key>reverse</key>
+			<string>The same; burial and obsequies.</string>
+			<key>imageName</key>
+			<string>swords05</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Six of Swords</string>
+			<key>meaning</key>
+			<string>journey by water, route, way, envoy, commissionary, expedient.</string>
+			<key>reverse</key>
+			<string>Declaration, confession, publicity; one account says that it is a proposal of love.</string>
+			<key>imageName</key>
+			<string>swords06</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Seven of Swords</string>
+			<key>meaning</key>
+			<string>Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.</string>
+			<key>reverse</key>
+			<string>Good advice, counsel, instruction, slander, babbling.</string>
+			<key>imageName</key>
+			<string>swords07</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Eight of Swords</string>
+			<key>meaning</key>
+			<string>Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.</string>
+			<key>reverse</key>
+			<string>Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality.</string>
+			<key>imageName</key>
+			<string>swords08</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Nine of Swords</string>
+			<key>meaning</key>
+			<string>Death, failure, miscarriage, delay, deception, disappointment, despair.</string>
+			<key>reverse</key>
+			<string>Imprisonment, suspicion, doubt, reasonable fear, shame.</string>
+			<key>imageName</key>
+			<string>swords09</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ten of Swords</string>
+			<key>meaning</key>
+			<string>Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.</string>
+			<key>reverse</key>
+			<string>Advantage, profit, success or favour but none of these are permanent; also power and authority.</string>
+			<key>imageName</key>
+			<string>swords10</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Page of Swords</string>
+			<key>meaning</key>
+			<string>Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.</string>
+			<key>reverse</key>
+			<string>More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.</string>
+			<key>imageName</key>
+			<string>swords11</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Knight of Swords</string>
+			<key>meaning</key>
+			<string>Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.</string>
+			<key>reverse</key>
+			<string>Imprudence, incapacity, extravagance.</string>
+			<key>imageName</key>
+			<string>swords12</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Queen of Swords</string>
+			<key>meaning</key>
+			<string>Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.</string>
+			<key>reverse</key>
+			<string>Malice, bigotry, artifice, prudery, bale, deceit.</string>
+			<key>imageName</key>
+			<string>swords12</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>King of Swords</string>
+			<key>meaning</key>
+			<string>Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth.</string>
+			<key>reverse</key>
+			<string>Cruelty, perversity, barbarity, perfidy, evil intention.</string>
+			<key>imageName</key>
+			<string>swords14</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Swords</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ace of Cups</string>
+			<key>meaning</key>
+			<string>House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.</string>
+			<key>reverse</key>
+			<string>House of the false heart, mutation, instability, revolution.</string>
+			<key>imageName</key>
+			<string>cups01</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Two of Cups</string>
+			<key>meaning</key>
+			<string>Love, passion, friendship, affinity, union, concord, sympathy</string>
+			<key>reverse</key>
+			<string></string>
+			<key>imageName</key>
+			<string>cups02</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Three of Cups</string>
+			<key>meaning</key>
+			<string>The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing,</string>
+			<key>reverse</key>
+			<string>Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses.</string>
+			<key>imageName</key>
+			<string>cups03</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Four of Cups</string>
+			<key>meaning</key>
+			<string>Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only; another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure.</string>
+			<key>reverse</key>
+			<string>Novelty, presage, new instruction, new relations.</string>
+			<key>imageName</key>
+			<string>cups04</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Five of Cups</string>
+			<key>meaning</key>
+			<string>It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration.</string>
+			<key>reverse</key>
+			<string>News, alliances, affinity, consanguinity, ancestry, return, false projects.</string>
+			<key>imageName</key>
+			<string>cups05</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Six of Cups</string>
+			<key>meaning</key>
+			<string>A card of the past and of memories, looking back, as--for example--on childhood; happiness, enjoyment, but coming rather from the past; things that have vanished.</string>
+			<key>reverse</key>
+			<string>The future, renewal, that which will come to pass presently.</string>
+			<key>imageName</key>
+			<string>cups06</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Seven of Cups</string>
+			<key>meaning</key>
+			<string>Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested.</string>
+			<key>reverse</key>
+			<string>Desire, will, determination, project.</string>
+			<key>imageName</key>
+			<string>cups07</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Eight of Cups</string>
+			<key>meaning</key>
+			<string>giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil.</string>
+			<key>reverse</key>
+			<string>Great joy, happiness, feasting.</string>
+			<key>imageName</key>
+			<string>cups08</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Nine of Cups</string>
+			<key>meaning</key>
+			<string>Concord, contentment, physical bien-etre; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.</string>
+			<key>reverse</key>
+			<string>Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.</string>
+			<key>imageName</key>
+			<string>cups09</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ten of Cups</string>
+			<key>meaning</key>
+			<string>Contentment, repose of the entire heart; the perfection of that state; also perfection of human love and friendship; if with several picture-cards, a person who is taking charge of the Querent&apos;s interests; also the town, village or country inhabited by the Querent.</string>
+			<key>reverse</key>
+			<string>Repose of the false heart, indignation, violence.</string>
+			<key>imageName</key>
+			<string>cups10</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Page of Cups</string>
+			<key>meaning</key>
+			<string>Fair young man, one impelled to render service and with whom the Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business.</string>
+			<key>reverse</key>
+			<string>Taste, inclination, attachment, seduction, deception, artifice.</string>
+			<key>imageName</key>
+			<string>cups11</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Knight of Cups</string>
+			<key>meaning</key>
+			<string>Arrival, approach--sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement.</string>
+			<key>reverse</key>
+			<string>Trickery, artifice, subtlety, swindling, duplicity, fraud.</string>
+			<key>imageName</key>
+			<string>cups12</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Queen of Cups</string>
+			<key>meaning</key>
+			<string>Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.</string>
+			<key>reverse</key>
+			<string>The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity.</string>
+			<key>imageName</key>
+			<string>cups13</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>King of Cups</string>
+			<key>meaning</key>
+			<string>Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.</string>
+			<key>reverse</key>
+			<string>Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.</string>
+			<key>imageName</key>
+			<string>cups14</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Cups</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ace of Wands</string>
+			<key>meaning</key>
+			<string>Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.</string>
+			<key>reverse</key>
+			<string>Fall, decadence, ruin, perdition, to perish also a certain clouded joy.</string>
+			<key>imageName</key>
+			<string>wands01</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Two of Wands</string>
+			<key>meaning</key>
+			<string>physical suffering, disease, chagrin, sadness, mortification.</string>
+			<key>reverse</key>
+			<string>Surprise, wonder, enchantment, emotion, trouble, fear.</string>
+			<key>imageName</key>
+			<string>wands02</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Three of Wands</string>
+			<key>meaning</key>
+			<string>He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you.</string>
+			<key>reverse</key>
+			<string>The end of troubles, suspension or cessation of adversity, toil and disappointment.</string>
+			<key>imageName</key>
+			<string>wands03</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Four of Wands</string>
+			<key>meaning</key>
+			<string>They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.</string>
+			<key>reverse</key>
+			<string>The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment.</string>
+			<key>imageName</key>
+			<string>wands04</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Five of Wands</string>
+			<key>meaning</key>
+			<string>Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.</string>
+			<key>reverse</key>
+			<string>Litigation, disputes, trickery, contradiction.</string>
+			<key>imageName</key>
+			<string>wands05</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Six of Wands</string>
+			<key>meaning</key>
+			<string>The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King&apos;s courier; it is expectation crowned with its own desire, the crown of hope, and so forth.</string>
+			<key>reverse</key>
+			<string>Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay.</string>
+			<key>imageName</key>
+			<string>wands06</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Seven of Wands</string>
+			<key>meaning</key>
+			<string>It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.</string>
+			<key>reverse</key>
+			<string>Perplexity, embarrassments, anxiety. It is also a caution against indecision.</string>
+			<key>imageName</key>
+			<string>wands07</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Eight of Wands</string>
+			<key>meaning</key>
+			<string>Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; generally, that which is on the move; also the arrows of love.</string>
+			<key>reverse</key>
+			<string>Arrows of jealousy, internal dispute, stingings of conscience, quarrels; and domestic disputes for persons who are married.</string>
+			<key>imageName</key>
+			<string>wands08</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Nine of Wands</string>
+			<key>meaning</key>
+			<string>The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews, that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts--delay, suspension, adjournment.</string>
+			<key>reverse</key>
+			<string>Obstacles, adversity, calamity.</string>
+			<key>imageName</key>
+			<string>wands09</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ten of Wands</string>
+			<key>meaning</key>
+			<string>The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.</string>
+			<key>reverse</key>
+			<string>Contrarieties, difficulties, intrigues, and their analogies.</string>
+			<key>imageName</key>
+			<string>wands10</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Page of Wands</string>
+			<key>meaning</key>
+			<string>Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.</string>
+			<key>reverse</key>
+			<string>Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.</string>
+			<key>imageName</key>
+			<string>wands11</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Knight of Wands</string>
+			<key>meaning</key>
+			<string>Departure, absence, flight, emigration. A dark young man, friendly. Change of residence.</string>
+			<key>reverse</key>
+			<string>Rupture, division, interruption, discord.</string>
+			<key>imageName</key>
+			<string>wands12</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Queen of Wands</string>
+			<key>meaning</key>
+			<string>A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money, or a certain success in business.</string>
+			<key>reverse</key>
+			<string>Good, economical, obliging, serviceable. Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity.</string>
+			<key>imageName</key>
+			<string>wands13</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>King of Wands</string>
+			<key>meaning</key>
+			<string>Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long.</string>
+			<key>reverse</key>
+			<string>Good, but severe; austere, yet tolerant.</string>
+			<key>imageName</key>
+			<string>wands14</string>
+			<key>rank</key>
+			<integer>0</integer>
+			<key>suit</key>
+			<string>Wands</string>
+			<key>color</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ace of Pentacles</string>
+			<key>meaning</key>
+			<string>Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.</string>
+			<key>reverse</key>
+			<string>The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not.</string>
+			<key>imageName</key>
+			<string>pent01</string>
+			<key>rank</key>
+			<integer>1</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Two of Pentacles</string>
+			<key>meaning</key>
+			<string>On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.</string>
+			<key>reverse</key>
+			<string>Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.</string>
+			<key>imageName</key>
+			<string>pent02</string>
+			<key>rank</key>
+			<integer>2</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Three of Pentacles</string>
+			<key>meaning</key>
+			<string>Metier, trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.</string>
+			<key>reverse</key>
+			<string>Mediocrity, in work and otherwise, puerility, pettiness, weakness.</string>
+			<key>imageName</key>
+			<string>pent03</string>
+			<key>rank</key>
+			<integer>3</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Four of Pentacles</string>
+			<key>meaning</key>
+			<string>The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.</string>
+			<key>reverse</key>
+			<string>Suspense, delay, opposition.</string>
+			<key>imageName</key>
+			<string>pent04</string>
+			<key>rank</key>
+			<integer>4</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Five of Pentacles</string>
+			<key>meaning</key>
+			<string>The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise.</string>
+			<key>reverse</key>
+			<string>Disorder, chaos, ruin, discord, profligacy.</string>
+			<key>imageName</key>
+			<string>pent05</string>
+			<key>rank</key>
+			<integer>5</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Six of Pentacles</string>
+			<key>meaning</key>
+			<string>Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.</string>
+			<key>reverse</key>
+			<string>Desire, cupidity, envy, jealousy, illusion.</string>
+			<key>imageName</key>
+			<string>pent06</string>
+			<key>rank</key>
+			<integer>6</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Seven of Pentacles</string>
+			<key>meaning</key>
+			<string>These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.</string>
+			<key>reverse</key>
+			<string>Cause for anxiety regarding money which it may be proposed to lend.</string>
+			<key>imageName</key>
+			<string>pent07</string>
+			<key>rank</key>
+			<integer>7</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Eight of Pentacles</string>
+			<key>meaning</key>
+			<string>Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.</string>
+			<key>reverse</key>
+			<string>Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue.</string>
+			<key>imageName</key>
+			<string>pent08</string>
+			<key>rank</key>
+			<integer>8</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Nine of Pentacles</string>
+			<key>meaning</key>
+			<string>Prudence, safety, success, accomplishment, certitude, discernment.</string>
+			<key>reverse</key>
+			<string>Roguery, deception, voided project, bad faith.</string>
+			<key>imageName</key>
+			<string>pent09</string>
+			<key>rank</key>
+			<integer>9</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Ten of Pentacles</string>
+			<key>meaning</key>
+			<string>Gain, riches; family matters, archives, extraction, the abode of a family.</string>
+			<key>reverse</key>
+			<string>Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.</string>
+			<key>imageName</key>
+			<string>pent10</string>
+			<key>rank</key>
+			<integer>10</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Page of Pentacles</string>
+			<key>meaning</key>
+			<string>Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management.</string>
+			<key>reverse</key>
+			<string>Prodigality, dissipation, liberality, luxury; unfavourable news.</string>
+			<key>imageName</key>
+			<string>pent11</string>
+			<key>rank</key>
+			<integer>11</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Knight of Pentacles</string>
+			<key>meaning</key>
+			<string>Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane.</string>
+			<key>reverse</key>
+			<string>inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness.</string>
+			<key>imageName</key>
+			<string>pent12</string>
+			<key>rank</key>
+			<integer>12</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>Queen of Pentacles</string>
+			<key>meaning</key>
+			<string>Opulence, generosity, magnificence, security, liberty.</string>
+			<key>reverse</key>
+			<string>Evil, suspicion, suspense, fear, mistrust.</string>
+			<key>imageName</key>
+			<string>pent13</string>
+			<key>rank</key>
+			<integer>13</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>King of Pentacles</string>
+			<key>meaning</key>
+			<string>Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths.</string>
+			<key>reverse</key>
+			<string>Vice, weakness, ugliness, perversity, corruption, peril.</string>
+			<key>imageName</key>
+			<string>pent14</string>
+			<key>rank</key>
+			<integer>14</integer>
+			<key>suit</key>
+			<string>Pentacles</string>
+			<key>color</key>
+			<string>Black</string>
+		</dict>
+	</array>
+</dict>
+</plist>

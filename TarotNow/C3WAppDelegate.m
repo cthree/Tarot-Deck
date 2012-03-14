@@ -7,6 +7,7 @@
 //
 
 #import "C3WAppDelegate.h"
+#import "C3WDeck.h"
 
 @implementation C3WAppDelegate
 
@@ -14,7 +15,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
     return YES;
 }
 							
