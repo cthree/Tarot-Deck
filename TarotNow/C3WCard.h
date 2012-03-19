@@ -21,11 +21,11 @@ typedef NSUInteger C3WCardOrientation;
 @property (strong, nonatomic) NSString              *reverse;
 @property (strong, nonatomic) NSString              *suit;
 @property (strong, nonatomic) NSString              *color;
-@property (assign, nonatomic) C3WCardOrientation    orientation;
 @property (strong, nonatomic) UIImage               *cardImage;
+@property (assign, nonatomic) C3WCardOrientation    orientation;
 
 + (id)cardWithDictionary:(NSDictionary *)dict;
 
-- (BOOL)isReversed;
+- (UIImageOrientation)cardImageOrientation;
 
 @end

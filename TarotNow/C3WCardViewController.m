@@ -27,16 +27,16 @@
 
 @implementation C3WCardViewController
 
-@synthesize cardImageView   = _cardImageView;
-@synthesize nextCardImageView = _nextCardImageView;
-@synthesize meaningLabel    = _meaningLabel;
-@synthesize infoPanelView   = _infoPanelView;
-@synthesize cardName        = _cardName;
-@synthesize infoButton = _infoButton;
-@synthesize deck            = _deck;
-@synthesize infoVisible     = _infoVisible;
+@synthesize cardImageView       = _cardImageView;
+@synthesize nextCardImageView   = _nextCardImageView;
+@synthesize meaningLabel        = _meaningLabel;
+@synthesize infoPanelView       = _infoPanelView;
+@synthesize cardName            = _cardName;
+@synthesize infoButton          = _infoButton;
+@synthesize deck                = _deck;
+@synthesize infoVisible         = _infoVisible;
 
-#pragma mark - Lifecycle Events
+#pragma mark - Lifecycle
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -51,9 +51,9 @@
 {
     [super viewDidLoad];
 
+    // Configure and play
     [self configure];
-    [self.deck shuffleAllCards];
-    [self turnTopCard];
+    [self shuffleAndPlay];
 
 }
 
@@ -87,6 +87,7 @@
 
 #pragma mark - View Control
 
+// Setup the working deck of cards and the UI handlers
 - (void)configure
 {    
     self.deck = [[C3WDeck alloc] init];
@@ -96,35 +97,43 @@
                           [[NSBundle mainBundle] pathForResource:@"RWSMajor" ofType:@"plist"],
                           [[NSBundle mainBundle] pathForResource:@"RWSMinor" ofType:@"plist"],
                           nil];
+    
     [self.deck loadFromDeckPropertyListFiles:deckFiles];
 
     // Add Swipe *UP* recogniser (play a new card)
-    UISwipeGestureRecognizer *swipeUpGestureRecogniser = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipedUp)];
+    UISwipeGestureRecognizer *swipeUpGestureRecogniser;
+    swipeUpGestureRecogniser = [[UISwipeGestureRecognizer alloc] initWithTarget:self 
+                                                                         action:@selector(swipedUp)];
     swipeUpGestureRecogniser.direction = UISwipeGestureRecognizerDirectionUp;
     [self.view addGestureRecognizer:swipeUpGestureRecogniser];
     
     // Add Swipe *DOWN* recogniser (unplay last card)
-    UISwipeGestureRecognizer *swipeDownGestureRecogniser = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipedDown)];
+    UISwipeGestureRecognizer *swipeDownGestureRecogniser;
+    swipeDownGestureRecogniser = [[UISwipeGestureRecognizer alloc] initWithTarget:self 
+                                                                           action:@selector(swipedDown)];
     swipeDownGestureRecogniser.direction = UISwipeGestureRecognizerDirectionDown;
     [self.view addGestureRecognizer:swipeDownGestureRecogniser];
     
     // Add double tap recogniser (reveal)
-    UITapGestureRecognizer *doubleTapRecogniser = [[UITapGestureRecognizer alloc] initWithTarget:self
-                                                                                          action:@selector(doubleTapped:)];
+    UITapGestureRecognizer *doubleTapRecogniser;
+    doubleTapRecogniser = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                  action:@selector(doubleTapped:)];
     doubleTapRecogniser.numberOfTapsRequired = 2;
     [self.view addGestureRecognizer:doubleTapRecogniser];
     
     // Add single tap recogniser (quick reveal)
-    UITapGestureRecognizer *singleTapRecogniser = [[UITapGestureRecognizer alloc] initWithTarget:self
-                                                                                          action:@selector(tapped:)];
-    [singleTapRecogniser requireGestureRecognizerToFail:doubleTapRecogniser];
+    UITapGestureRecognizer *singleTapRecogniser;
+    singleTapRecogniser = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                  action:@selector(tapped:)];
     singleTapRecogniser.delegate = self;
+    [singleTapRecogniser requireGestureRecognizerToFail:doubleTapRecogniser];
     [self.view addGestureRecognizer:singleTapRecogniser];
     
     // Set the info panel to be invisible
     [self hideInfo];
 }
 
+// Toggle info panel visibility with animation
 - (void)toggleInfoVisibleWithAnimation
 {
     if (self.infoVisible) {
@@ -141,100 +150,102 @@
     }
 }
 
+// Hide the card info if visible without animation
 - (void)hideInfo
 {
     self.infoPanelView.alpha = 0.0;
     self.infoVisible = NO;
 }
 
+// Main card display method. Display card with the animationOptions animation sequence
 - (void)displayCard:(C3WCard *)card withAnimation:(UIViewAnimationOptions)animationOptions
 {
-    // Hide the info overlay anytime the card changes
-    [self hideInfo];
-    
-    if (card.orientation == C3WCardOrientationUpright) {
-        self.cardName.text      = card.description;
-        self.meaningLabel.text  = card.meaning;
-    }
-    else {
-        self.cardName.text      = [NSString stringWithFormat:@"%@ (Reversed)", card.description];
-        self.meaningLabel.text  = card.reverse;
-    }
+    if (card) {
+        // Hide the info overlay when the card changes
+        [self hideInfo];
+        
+        // Set Title and meaning text for new card
+        if (card.cardImageOrientation == UIImageOrientationUp) {
+            self.cardName.text      = card.description;
+            self.meaningLabel.text  = card.meaning;
+        }
+        else {
+            self.cardName.text      = [NSString stringWithFormat:@"%@ (Reversed)", card.description];
+            self.meaningLabel.text  = card.reverse;
+        }
+        
+        // Set new card image
+        self.nextCardImageView.image = [UIImage imageWithCGImage:card.cardImage.CGImage 
+                                                           scale:1.0 
+                                                     orientation:card.cardImageOrientation];
+        
+        // Transtion from current card image to new card image with animation
+        [UIView transitionWithView:self.view 
+                          duration:0.5 
+                           options:animationOptions
+                        animations:^{
+                            self.cardImageView.hidden = YES;
+                            self.nextCardImageView.hidden = NO;
+                        } completion:^(BOOL finished) {
+                            UIImageView *tmp = self.cardImageView;
+                            self.cardImageView = self.nextCardImageView;
+                            self.nextCardImageView = tmp;
+                        }];
 
-    [UIView transitionWithView:self.view 
-                      duration:0.5 
-                       options:animationOptions
-                    animations:^{
-                        self.cardImageView.hidden = YES;
-                        self.nextCardImageView.hidden = NO;
-                    } completion:^(BOOL finished) {
-                        UIImageView *tmp = self.cardImageView;
-                        self.cardImageView = self.nextCardImageView;
-                        self.nextCardImageView = tmp;
-                    }];
+    }
 }
 
+// Display card without animation
 - (void) displayCard:(C3WCard *)card
 {
-    [self displayCard:card
-        withAnimation:UIViewAnimationOptionTransitionNone];
+    [self displayCard:card withAnimation:UIViewAnimationOptionTransitionNone];
 }
 
-- (void)turnTopCard
+// Display the next unturned card in the deck
+- (void)displayNextCard
 {
-    C3WCard *nextCard = [self.deck playCard];
-    
-    if (nextCard) {
-        UIImageOrientation orientation = nextCard.orientation == C3WCardOrientationUpright ? UIImageOrientationUp : UIImageOrientationDown;
-        
-        self.nextCardImageView.image = [UIImage imageWithCGImage:nextCard.cardImage.CGImage 
-                                                           scale:1.0 
-                                                     orientation:orientation];
-
-        [self displayCard:nextCard 
-            withAnimation:UIViewAnimationOptionTransitionFlipFromTop];
-    }    
+    [self displayCard:[self.deck playCard] 
+        withAnimation:UIViewAnimationOptionTransitionFlipFromTop];
 }
 
-- (void)unturnTopCard
+// Redisplay the previously turned card
+- (void)displayPreviousCard
 {
-    C3WCard *nextCard = [self.deck unplayCard];
-    
-    if (nextCard) {
-        UIImageOrientation orientation = nextCard.orientation == C3WCardOrientationUpright ? UIImageOrientationUp : UIImageOrientationDown;
-        
-        self.nextCardImageView.image = [UIImage imageWithCGImage:nextCard.cardImage.CGImage 
-                                                           scale:1.0 
-                                                     orientation:orientation];
-        
-        [self displayCard:nextCard 
-            withAnimation:UIViewAnimationOptionTransitionFlipFromBottom];
-    }    
+    [self displayCard:[self.deck unplayCard] 
+        withAnimation:UIViewAnimationOptionTransitionFlipFromBottom];
+}
+
+// Shuffle the deck and turn the top card
+- (void)shuffleAndPlay
+{
+    [self.deck shuffleAllCards];
+    [self displayNextCard];
 }
 
 #pragma mark - Gesture Recognisers
 
-// Play a new card
+// show the next card
 - (void)swipedUp
 {
-    [self turnTopCard];
+    [self displayNextCard];
 }
 
-// Unplay the last card
+// show the previous card
 - (void)swipedDown
 {
-    [self unturnTopCard];
+    [self displayPreviousCard];
 }
 
+// tap to toggle title/meaning info panel
 - (void)tapped:(UIGestureRecognizer *)sender
 {
     [self toggleInfoVisibleWithAnimation];
 }
 
+// double tap to shuffle
 - (void)doubleTapped:(UIGestureRecognizer *)sender
 {
-    [self.deck shuffleAllCards];
-    [self turnTopCard];
+    [self shuffleAndPlay];
 }
 
 // Prevent taps around the info button from being recognised as a general tap
@@ -245,7 +256,6 @@
         return NO;
     }
     return YES;
-    
 }
 
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
@@ -261,8 +271,7 @@
 // Shake to shuffle
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
-    [self.deck shuffleAllCards];
-    [self turnTopCard];
+    [self shuffleAndPlay];
 }
 
 #pragma mark - Flipside View

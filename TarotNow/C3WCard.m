@@ -10,7 +10,7 @@
 
 @interface C3WCard ()
 
-@property (strong, nonatomic) NSString *imageName;
+@property (strong, nonatomic) NSString              *imageName;
 
 @end
 
@@ -49,10 +49,9 @@
     return _cardImage;
 }
 
-- (BOOL)isReversed
+- (UIImageOrientation)cardImageOrientation
 {
-    return (self.orientation == C3WCardOrientationReversed);
+    return self.orientation == C3WCardOrientationUpright ? UIImageOrientationUp : UIImageOrientationDown;
 }
-
 
 @end
