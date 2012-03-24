@@ -191,7 +191,7 @@
 		BC8D7CE2150C38390045ED4E /* wands13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wands13.jpg; sourceTree = "<group>"; };
 		BC8D7CE3150C38390045ED4E /* wands14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wands14.jpg; sourceTree = "<group>"; };
 		BC8D7D33150CE9CE0045ED4E /* RWSMajor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RWSMajor.plist; sourceTree = "<group>"; };
-		BC8E9AC0150BF21000F29F0C /* TarotNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarotNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8E9AC0150BF21000F29F0C /* Tarot Deck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarot Deck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8E9AC4150BF21000F29F0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC8E9AC6150BF21000F29F0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC8E9AC8150BF21000F29F0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -317,7 +317,7 @@
 		BC8E9AC1150BF21000F29F0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC8E9AC0150BF21000F29F0C /* TarotNow.app */,
+				BC8E9AC0150BF21000F29F0C /* Tarot Deck.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -384,7 +384,7 @@
 			);
 			name = "Tarot Deck";
 			productName = TarotNow;
-			productReference = BC8E9AC0150BF21000F29F0C /* TarotNow.app */;
+			productReference = BC8E9AC0150BF21000F29F0C /* Tarot Deck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -595,6 +595,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TarotNow/TarotNow-Prefix.pch";
 				INFOPLIST_FILE = "TarotNow/TarotNow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -607,6 +608,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TarotNow/TarotNow-Prefix.pch";
 				INFOPLIST_FILE = "TarotNow/TarotNow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
